@@ -1,0 +1,61 @@
+# Директории и файлы, создаваемые IDE и билд-системой
+.gradle/
+.local/
+.idea
+captures/
+*.iml
+
+# Файлы кэша и временные файлы
+build/
+out/
+*.log
+*.swp
+*.swo
+*.DS_Store
+
+# Файлы Android Studio
+*.keystore
+*.jks
+*.class
+*.jar
+*.war
+*.ear
+*.dex
+*.apk
+*.aar
+*.aab
+*.so
+*.o
+*.obj
+
+# Файлы, содержащие учетные данные
+local.properties
+*.gradle.kts
+*.properties
+
+# Директории Kotlin и Java-компиляции
+.kotlinc/
+*.kotlin_metadata
+*.kotlin_module
+
+# Директории и файлы тестов
+test-results/
+test-output/
+hs_err_pid*
+
+# DataStore и Room (если используется)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Logcat файлы
+logcat.txt
+
+# Ignoring generated JSON files
+json/
+
+# Ignoring Flutter/React Native
+node_modules/
+pubspec.lock
+yarn.lock
