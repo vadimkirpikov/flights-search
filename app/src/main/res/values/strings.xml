@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">SearchFlights</string>
+    <string name="app_name">Flights searcher</string>
+    <string name="search_text">search_text</string>
+    <string name="label">Ввести аэропорт или IATA код</string>
+    <string name="back">Назад</string>
+    <string name="no_flights_available">Нет доступных рейсов</string>
+    <string name="favorite_flights">Избранное</string>
+    <string name="remove_from_favorites">Удалить из избранного</string>
+    <string name="favorite">Избранное</string>
+    <string name="to">Прибытие: %1$s</string>
+    <string name="from">Отправление: %1$s</string>
+    <string name="flight_search">Поиск рейсов</string>
 </resources>
